@@ -1,0 +1,8 @@
+name: Jenkins TEST
+description: |
+  # This is a test catalog
+version: 1
+category: CI-CD
+maintainer: CLEO
+license: TEST-License
+projectURL: https://github.com/CleoDev/Playground
