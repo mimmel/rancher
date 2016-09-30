@@ -63,6 +63,10 @@ jenkins-primary:
       swarm
 
 .catalog:
+  name: jenkins
+  version: 1
+  description: Some Discription
+  minimum_rancher_version: .1
   questions:
     - variable: name
       label: Name
