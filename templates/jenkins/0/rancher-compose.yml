@@ -62,3 +62,14 @@ jenkins-primary:
       ssh-slaves
       swarm
 
+.catalog:
+  questions:
+    - New Stack:
+      - Option
+    - variable:
+      label:
+      description: |
+      type: enum
+      options: # List of options if using type of `enum`
+        - Option 1
+        - Option 2
