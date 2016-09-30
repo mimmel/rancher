@@ -15,7 +15,7 @@ jenkins-primary:
       ssh-slaves
       swarm
 .catalog:
-  name: jenkins
+  name: Jenkins
   version: 1
   description: |
     Jenkins-Cleo
