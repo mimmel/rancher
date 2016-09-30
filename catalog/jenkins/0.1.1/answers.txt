@@ -1,0 +1,16 @@
+PORT=8080
+volume_work=/var/lib/docker/jenkins-ci
+plugins='credentials
+git
+git-client
+github
+github-api
+github-oauth
+greenballs
+junit
+plain-credentials
+scm-api
+ssh-credentials
+ssh-slaves
+swarm
+'
