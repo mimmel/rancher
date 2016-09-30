@@ -64,12 +64,10 @@ jenkins-primary:
 
 .catalog:
   questions:
-    - New Stack:
-      - Option
-    - variable:
-      label:
-      description: |
-      type: enum
-      options: # List of options if using type of `enum`
-        - Option 1
-        - Option 2
+    - variable: name
+      label: Name
+      description: | Name of instance
+      default: Cleo Jenkins
+      required: True
+      type: # How the questions are formatted and types of response expected
+
