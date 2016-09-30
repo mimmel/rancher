@@ -1,4 +1,5 @@
 versalex:
+  image: ubuntu:ubuntu
   build: .
   command: [-s, service]
   environment:
