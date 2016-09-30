@@ -4,5 +4,5 @@ description: >
 version: 0.0.1-rancher1
 category: "CLEO Jenkins"
 maintainer: Cleo
-license: Apache2
+license: CLEO
 projectURL: https://github.com/mimmel/rancher
