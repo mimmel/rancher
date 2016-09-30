@@ -2,7 +2,7 @@ name: Jenkins
 description: >
   Jenkins build
 version: 0.0.1-rancher1
-category: Toy Apps
+category: "CLEO Jenkins"
 maintainer: Cleo
 license: Apache2
 projectURL: https://github.com/mimmel/rancher

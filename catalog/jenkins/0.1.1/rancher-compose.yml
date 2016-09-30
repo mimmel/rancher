@@ -14,3 +14,16 @@ jenkins-primary:
       ssh-credentials
       ssh-slaves
       swarm
+.catalog:
+  name: jenkins
+  version: 1
+  description: |
+    Jenkins-Cleo
+  uuid: Jenkins-0
+  questions:
+    - variable: "Name"
+      description: "Name of Master"
+      label: "Name of Master Jenkins"
+      required: true
+      default: 1
+      type: "int"
