@@ -61,4 +61,21 @@ jenkins-primary:
       ssh-credentials
       ssh-slaves
       swarm
-
+.catalog:
+  name: jenkins
+  version: 1
+  description: Some Discription
+  minimum_rancher_version: .1
+  questions:
+    - variable: name
+      label: Name
+      description: | Name of instance
+      default: Cleo-Jenkins
+      required: True
+      type: # How the questions are formatted and types of response expected
+    - variable: port
+      label: Port Number
+      description: | Which Port should Jenkins Listen on?
+      default: 8080
+      required: True
+      type: # How the questions are formatted and types of response expected
